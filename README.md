@@ -1,94 +1,53 @@
-# Eliza
+# 🚀 AI-Powered Token Launchpad on Pump.fun
 
-## Edit the character files
+## 📌 Overview
+This AI Agent is an **AI-powered token launchpad** built on **Pump.fun**, leveraging the **Solana Adapter on the Eliza Framework**. It offers a **seamless and automated** way to launch and manage tokens, **trading efficiency, liquidity provision, and smart automation** for users. Designed to simplify the process, this AI agent helps users navigate the Solana ecosystem effortlessly, making token creation and management more accessible than ever.
 
-Open `src/character.ts` to modify the default character. Uncomment and edit.
+### 🔥 Key Benefits
+- **🚀 Automated Token Launch** – Simplifies token deployment on Pump.fun.
+- **💡 AI-Driven Management** – Enhances liquidity and trading strategies.
+- **🔗 Solana Integration** – Built on **Solana’s fast & low-cost** blockchain.
+- **📊 Liquidity Optimization** – Ensures tokens have **sustainable trading volume**.
+- **⚡ User-Friendly** – Designed for both **newcomers & experienced traders**.
 
-### Custom characters
+---
 
-To load custom characters instead:
-- Use `pnpm start --characters="path/to/your/character.json"`
-- Multiple character files can be loaded simultaneously
+## 🛠️ How It Works
+1️⃣ **Users interact with the AI agent**, specifying token details.
+2️⃣ **The agent automates token creation**, ensuring efficient smart contract execution.
+3️⃣ **Liquidity and market-making strategies** are optimized for launch success.
+4️⃣ **AI-driven insights** help users **manage and track token performance**.
 
-### Add clients
-```
-# in character.ts
-clients: [Clients.TWITTER, Clients.DISCORD],
+---
 
-# in character.json
-clients: ["twitter", "discord"]
-```
-
-## Duplicate the .env.example template
-
-```bash
-cp .env.example .env
-```
-
-\* Fill out the .env file with your own values.
-
-### Add login credentials and keys to .env
-```
-DISCORD_APPLICATION_ID="discord-application-id"
-DISCORD_API_TOKEN="discord-api-token"
-...
-OPENROUTER_API_KEY="sk-xx-xx-xxx"
-...
-TWITTER_USERNAME="username"
-TWITTER_PASSWORD="password"
-TWITTER_EMAIL="your@email.com"
+## 🔧 Setup & Installation
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/T-rustdev/eliza-solana-plugin-pumpfun-token-launch-ai-agent
+cd eliza-solana-plugin-pumpfun-token-launch-ai-agent
 ```
 
-## Install dependencies and start your agent
-
-```bash
-pnpm i && pnpm start
-```
-Note: this requires node to be at least version 22 when you install packages and run the agent.
-
-## Run with Docker
-
-### Build and run Docker Compose (For x86_64 architecture)
-
-#### Edit the docker-compose.yaml file with your environment variables
-
-```yaml
-services:
-    eliza:
-        environment:
-            - OPENROUTER_API_KEY=blahdeeblahblahblah
+### 2️⃣ Install Dependencies
+```sh
+yarn install  # or npm install
 ```
 
-#### Run the image
-
-```bash
-docker compose up
+### 3️⃣ Run the AI Agent
+```sh
+yarn start  # or npm start
 ```
 
-### Build the image with Mac M-Series or aarch64
+---
 
-Make sure docker is running.
+## 🔍 Future Enhancements
+- ✅ **Advanced AI trading strategies** for optimized market entry.
+- ✅ **Support for multi-chain integration** beyond Solana.
+- ✅ **Real-time analytics & token tracking dashboard**.
 
-```bash
-# The --load flag ensures the built image is available locally
-docker buildx build --platform linux/amd64 -t eliza-starter:v1 --load .
-```
+---
 
-#### Edit the docker-compose-image.yaml file with your environment variables
+## 📞 Get in Touch
+💬 **Twitter:** [@T-rustdev](https://twitter.com/T_rustdev)  
+📩 **Telegram:** [@T-rustdev](https://t.me/T_rustdev)  
 
-```yaml
-services:
-    eliza:
-        environment:
-            - OPENROUTER_API_KEY=blahdeeblahblahblah
-```
-
-#### Run the image
-
-```bash
-docker compose -f docker-compose-image.yaml up
-```
-
-# Deploy with Railway
-
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aW47_j)
+⚡ **Join us in reshaping token launches with AI & automation!** 🚀
