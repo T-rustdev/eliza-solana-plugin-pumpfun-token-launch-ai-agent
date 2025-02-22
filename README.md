@@ -29,12 +29,13 @@ cd eliza-solana-plugin-pumpfun-token-launch-ai-agent
 
 ### 2️⃣ Install Dependencies
 ```sh
-yarn install  # or npm install
+pnpm install
+pnpm tsc
 ```
 
 ### 3️⃣ Run the AI Agent
 ```sh
-yarn start  # or npm start
+pnpm mock-eliza --characters=./characters/eternalai.character.json
 ```
 
 ---
@@ -47,7 +48,6 @@ yarn start  # or npm start
 ---
 
 ## 📞 Get in Touch
-💬 **Twitter:** [@T-rustdev](https://twitter.com/T_rustdev)  
 📩 **Telegram:** [@T-rustdev](https://t.me/T_rustdev)  
 
 ⚡ **Join us in reshaping token launches with AI & automation!** 🚀
