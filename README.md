@@ -20,9 +20,9 @@ This AI Agent is an **AI-powered token launchpad** built on **Pump.fun**, levera
 
 ---
 
+![Screenshot_1](https://github.com/user-attachments/assets/5012cac5-9458-46ca-b9d5-eccc8b53ddc1)
 
 https://github.com/user-attachments/assets/f13b98b2-ac57-4958-bbd9-c02b90d73ea7
-
 
 ## 🔧 Setup & Installation
 ### 1️⃣ Clone the Repository
